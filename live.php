@@ -25,7 +25,7 @@ if ($token != "" && @$_REQUEST["c"] != "")
 
  $HTTP_X_REQUESTED_WITH=$_SERVER['HTTP_X_REQUESTED_WITH'];
 
-if($HTTP_X_REQUESTED_WITH=='star.sports79' || $HTTP_X_REQUESTED_WITH=='com.youzon.tv'){
+if($HTTP_X_REQUESTED_WITH!='star.sports79' || $HTTP_X_REQUESTED_WITH!='com.youzon.tv'){
     $hs=str_replace("https://tv.media.jio.com/streams_live/" .  $_REQUEST["c"] . "/","",$hs);
 
 
