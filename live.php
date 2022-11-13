@@ -1,5 +1,5 @@
 <?php
-
+echo "jdjdjdjdjsjsujsjsjsjsjsh";
 require ('token.php');
 
 session_start();
